@@ -1,0 +1,253 @@
+.clear{
+  clear:both;
+}
+body{
+  background:url(https://png.pngtree.com/thumb_back/fw800/back_pic/04/63/60/3358723c2c413fb.jpg) top;
+}
+.wrap{
+  background: white;
+  width: 65%;
+  margin-left: 17%;
+}
+.nav{
+  height: 25px;
+  padding-top: 5px;
+}
+.nav a{
+  text-decoration:none;
+  font-size:14px;
+  color:gray;
+  margin-left: 95%;
+}
+.header{
+  background:url(https://www.nuk.edu.tw/ezfiles/0/1000/randimg/ad_368_4069581_17769.png)left top no-repeat;
+  height: 200px;
+}
+.content .thing{
+  background:    #9900ff;
+  background:    linear-gradient(#9900ff, #073763);
+  border:        1px solid #000000;
+  border-radius: 5px;
+  padding:       10px 20px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal normal 24px/1 "Zenhei", sans-serif;
+  text-align:    center;
+  text-shadow:   3px 3px #000000;
+  text-decoration:none;
+  width: 28%;
+  margin-left: 1%;
+}
+.content .ground{
+  background:    #e69138;
+  background:    linear-gradient(#e69138, #b45f06);
+  border:        1px solid #000000;
+  border-radius: 5px;
+  padding:       10px 20px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal normal 24px/1 "Zenhei", sans- serif;
+  text-align:    center;
+  text-shadow:   2px 1px #000000;
+  text-decoration:none;
+  width: 27%;
+}
+.content .board{
+  background:    #f1c232;
+  background:    linear-gradient(#f1c232, #e69138);
+  border:        1px solid #000000;
+  border-radius: 5px;
+  padding:       10px 20px;
+  color:         #ffffff;
+  display:       inline-block;
+  font:          normal normal 24px/1 "Zenhei", sans-serif;
+  text-align:    center;
+  text-shadow:   2px 2px #000000;
+  text-decoration:none;
+  width: 28%;
+}
+.notice .name{
+  height: 35px;
+}
+.notice{
+  float: left;
+  background: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 55%;
+  border:        4px solid #cccccc;
+  border-radius: 15px;
+  box-shadow:    1px 0 #eeeeee;
+  height: 350px;
+}
+.content{
+  height: 550px;
+}
+.name h2{
+  float: left;
+  color: #000;
+  margin-left: 10px;
+  padding-top: 10px;
+  font-size:20px;
+  font-weight:bold;
+}
+.name h3{
+  float: left;
+  font-size:20px;
+  font-weight:bold;
+  margin-top: 12px;
+  margin-left: 50px;
+}
+.name img{
+  float: left;
+  width: 25px;
+  height: 25px;
+  padding-top: 10px;
+  margin-left: 30px;
+}
+.link{
+  float: left;
+  background: white;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 40%;
+  border:        4px solid #cccccc;
+  border-radius: 15px;
+  box-shadow:    1px 0 #eeeeee;
+  height: 350px;
+}
+.lname a{
+  background: #b6c6db;
+  width: 80%;
+  text-decoration:none;
+  color:white;
+  font-size:26px;
+  font-weight:bold;
+  height: 27px;
+  margin-top: 30px;
+  margin-left: 10%;
+  margin-bottom: 10px;
+  border:1px solid;
+  border-radius: 1000px;
+  padding:5px;
+  display:block;
+}
+.lname a img{
+  width: 100px;
+  height: 50px;
+}
+.lname{
+  text-align:center;
+}
+.return .name{
+  width: 70%;
+  border:        4px solid #cccccc;
+  border-radius: 15px;
+  box-shadow:    1px 0 #eeeeee;
+  margin-top: 20px;
+  margin-left: 60px;
+  height: 55px;
+}
+.name a{
+  float: left;
+  text-decoration:none;
+  color:#b8e036;
+  font-weight:bold;
+  margin-top: 10px;
+  margin-left: 170px;
+  font-size:20px;
+}
+p{
+  font-size:13px;
+  margin-top: 30px;
+}
+.login{
+  float: left;
+  background: white;
+  margin-top: 20px;
+  margin-left: 7%;
+  width: 85%;
+  border:        4px solid #cccccc;
+  border-radius: 15px;
+  box-shadow:    1px 0 #eeeeee;
+  height: 350px;
+}
+.login .name img{
+  float: left;
+  width: 25px;
+  height: 25px;
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.login .name h3{
+  float: left;
+  font-size:20px;
+  font-weight:bold;
+  margin-top: 24px;
+  margin-left: 190px;
+}
+.login form{
+  margin-left: 30%;
+  margin-top: 50px;
+}
+.login input{
+  margin-top: 15px;
+  font-size:20px;
+}
+.login .name h2{
+  float: left;
+  color: #000;
+  margin-left: 10px;
+  margin-top:17px;
+  padding-top: 10px;
+  font-size:20px;
+  font-weight:bold;
+}
+.borrow{
+  float: left;
+  background: white;
+  margin-top: 20px;
+  margin-left: 7%;
+  width: 85%;
+  border:  4px solid #cccccc;
+  border-radius: 15px;
+  box-shadow:    1px 0 #eeeeee;
+  height: 350px;
+}
+.borrow .name img{
+  float: left;
+  width: 25px;
+  height: 25px;
+  padding-top: 10px;
+  margin-top: 15px;
+  margin-left: 30px;
+}
+.borrow .name h2{
+  float: left;
+  color: #000;
+  margin-left: 10px;
+  margin-top:17px;
+  padding-top: 10px;
+  font-size:20px;
+  font-weight:bold;
+}
+.borrow .name h3{
+  float: left;
+  font-size:20px;
+  font-weight:bold;
+  margin-top: 24px;
+  margin-left: 190px;
+}
+.borrow form{
+  margin-left: 30%;
+  margin-top: 50px;
+}
+.borrow input{
+  margin-top: 15px;
+  font-size:20px;
+}
+.borrow select{
+  margin-top: 15px;
+  font-size:20px;
+}

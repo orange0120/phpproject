@@ -1,0 +1,15 @@
+body{
+	font-size:30px;
+	color:black;
+	border-style:dashed;
+	border-color:#00FFFF;
+	border-width:7px;
+	
+}
+form{
+	font-size:30px;
+	color:black;
+	margin:10px;
+	padding:5px;
+	
+}
