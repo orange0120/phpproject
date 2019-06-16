@@ -36,16 +36,20 @@
 				$row=mysqli_fetch_assoc($result);
 				if($id1==$row["ID"] && $pass==$row["PASS"] && $row["st"]=='S'){
 					$_SESSION["login"]=$id1;
+					$_SESSION["pass"]=$pass;
 					header("Location:pro.php?myID=".$_SESSION[login]);
 				}
 				if($id1==$row["ID"] && $pass==$row["PASS"] && $row["st"]=='T'){
 					$_SESSION["login"]=$id1;
+					$_SESSION["pass"]=$pass;
 					header("Location:prort.php?myID=".$_SESSION[login]);
 				}
 				else{
 					echo "密碼錯誤或錯誤的登入方法";
 					echo "<br>";
 					echo "將回到登入頁面";
+					unset($_SESSION['login']);
+					unset($_SESSION['pass']);
 					header("Refresh:2;URL=prolog.php");
 					#$SQLCREATE="INSERT into week13(NO,ID,Name) VALUES('$NO','$ID','$Name')";
 	
@@ -69,10 +73,12 @@ if($result=mysqli_query($link,$sql)){
 	$row=mysqli_fetch_assoc($result);
 	if($id1==$row["ID"] && $pass==$row["PASS"] && $row["st"]=='S'){
 	$_SESSION["login"]=$id1;
+	$_SESSION["pass"]=$pass;
 	header("Location:pro.php?myID=".$_SESSION[login]);
 }
 	if($id1==$row["ID"] && $pass==$row["PASS"] && $row["st"]=='T'){
 	$_SESSION["login"]=$id1;
+	$_SESSION["pass"]=$pass;
 	header("Location:prort.php?myID=".$_SESSION[login]);
 }
 else{

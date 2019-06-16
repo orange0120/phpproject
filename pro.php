@@ -83,7 +83,7 @@
 			echo "<a href='proe.php'>查看借用器材</a><br>";
 			?>
 			<input class="next" type='submit' value="下一步"><br>
-			<a href='index.php'>登出</a>
+			<a href='logout.php'>登出</a>
 		</form>
           
         

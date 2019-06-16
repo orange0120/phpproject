@@ -20,21 +20,24 @@
       <div class="login">
         <?php
 session_start();
-$id=$_POST['Name'];
-$passwd=$_POST['Pass'];
-
+@$id=$_GET["ID"];
+@$passwd=$_GET["Pass"];
 if ($id=="x948787" && $passwd=="xx9527") {
-	$_SESSION[login]=$id;
+	$_SESSION['login']=$id;
+	$_SESSION['pass']=$passwd;
 	header("location:fieldborrow.php");
 }
 if ($id=="x1234" && $passwd=="x12345"){
-	$_SESSION["login"]=$id;
+	$_SESSION['login']=$id;
+	$_SESSION['pass']=$passwd;
 	header("location:prort.php");
 
 }
 else{
 	//$_SESSION["loginfail"]="fail";
 	echo "<h3>登入失敗</h3>";
+	#unset($_SESSION['login']);
+	#unset($_SESSION['pass']);
 	header("Refresh:2;loginfield.php");
 }
 ?>

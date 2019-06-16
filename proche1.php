@@ -48,7 +48,7 @@
 				else{
 					echo "<span class='word'>借用成功</span>"."<br>";
 					echo "<a href='pro.php'>繼續借用</a>"."<br>";
-					echo "<a href='index.php'>登出</a>"."<br>";
+					echo "<a href='logout.php'>登出</a>"."<br>";
 					$SQLCREATE="INSERT into br(ID,cl,num,YN) VALUES('$_SESSION[login]','$ba','$num','Y')";
 					$result=mysqli_query($link,$SQLCREATE);
 				}
@@ -66,10 +66,11 @@
 				else{
 					echo "<span class='word'>借用成功</span>"."<br>";
 					echo "<a href='pro.php'>繼續借用</a>"."<br>";
-					echo "<a href='index.php'>登出</a>"."<br>";
+					echo "<a href='logout.php>登出"."</a>"."<br>";
 					$SQLCREATE="INSERT into br(ID,cl,num,YN) VALUES('$_SESSION[login]','$ba','$num','Y')";
 					$result=mysqli_query($link,$SQLCREATE);
 					#$SQLUPDATE="UPDATE equipment SET NO='$NO',ID='$ID',Name='$Name' WHERE NO='$NO'";
+
 				}
 			}
 			if($_SESSION['id']=='a3'){
@@ -85,7 +86,7 @@
 				else{
 					echo "<span class='word'>借用成功</span>"."<br>";
 					echo "<a href='pro.php'>繼續借用</a>"."<br>";
-					echo "<a href='index.php'>登出</a>"."<br>";
+					echo "<a href='logout.php'>登出</a>"."<br>";
 					$SQLCREATE="INSERT into br(ID,cl,num,YN) VALUES('$_SESSION[login]','$ba','$num','Y')";
 					$result=mysqli_query($link,$SQLCREATE);
 					#$SQLUPDATE="UPDATE equipment SET NO='$NO',ID='$ID',Name='$Name' WHERE NO='$NO'";

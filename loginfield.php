@@ -26,8 +26,14 @@
           <hr>
         </div>
 
-        <form action="fieldcheck.php" method="post">
-            <input type="text" name="Name" required placeholder="帳號"><br>
+        <form action="fieldcheck.php" method="get">
+		<?php
+				session_start();
+				if(isset($_SESSION['login'])==1){
+					header("Location:fieldcheck.php?ID=".$_SESSION[login]."&Pass=".$_SESSION[pass]);
+				}
+		?>
+            <input type="text" name="ID" required placeholder="帳號"><br>
             <input type="password" name="Pass" required placeholder="密碼"><br>
             <input type="submit" value="登入">
             <input type="reset">

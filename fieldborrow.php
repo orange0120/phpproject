@@ -28,8 +28,9 @@
 		<?php
 session_start();
 $link=mysqli_connect('localhost','A1063309','n126084866','phpproject');
+
 ?>
-<form action="#" method='POST'>
+<form action="#" method='post'>
 <select id="Name" name="bName">
 	<option>選擇球類</option>
 	<?php

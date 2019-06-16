@@ -65,7 +65,7 @@
 			echo "<br>";
 			echo "<a href='pror.php'>歸還器材</a><br>";
 			?>
-			<input class="next" type="submit" value="借用"><br> <a href='index.php'>登出</a>
+			<input class="next" type="submit" value="借用"><br> <a href='logout.php'>登出</a>
 		</form>
           
         

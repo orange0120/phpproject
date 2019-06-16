@@ -36,7 +36,7 @@
 				$SQLUPDATE="UPDATE br SET YN='N' WHERE ID='$_SESSION[login]'";
 				$result1=mysqli_query($link,$SQLUPDATE);
 				echo "<span class='word'>器具已歸還</span>";
-				echo "<a href='index.php'>登出</a>";
+				echo "<a href='logout.php'>登出</a>";
 			}
 			else{
 				echo "<span class='word'>沒有要歸還的器具</span>";

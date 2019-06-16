@@ -28,6 +28,10 @@
         
 		<form action="proche.php" method="get">
 			<?php
+				session_start();
+				if(isset($_SESSION['login'])==1){
+					header("Location:proche.php?myID=".$_SESSION[login]."&myPass=".$_SESSION[pass]);
+				}
 				echo"<input type='text' name='myID' required placeholder='帳號'><br/>";
 			?>
 		    <input type="password" name="myPass" required placeholder="密碼"><br/>

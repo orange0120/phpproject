@@ -11,7 +11,7 @@ if($result=mysqli_query($link,$sql)){
 		else{
 			echo "借用成功"."<br>";
 			echo "<a href='pro.php'>繼續借用</a>"."<br>";
-			echo "<a href='index.php'>登出</a>"."<br>";
+			echo "<a href='logout.php'>登出</a>"."<br>";
 			$login=$_SESSION["login"];
 			try{
 				$mysql = new PDO("mysql:host=127.0.0.1;dbname=phpproject;charset=utf8","root","`1234qwer");

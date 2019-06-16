@@ -61,8 +61,8 @@ mysqli_query($link,$SQLUpdate);
 ?>
         </table>
         <?php echo "<a href='fieldborrow.php'>繼續租借</a>";
-echo "<a href='loginfield.php'>Logout</a>";
-$sqlborrow="insert into fieldborrowed(ID,Name,place) values('$_SESSION[login]','$_SESSION[namename]','$name')";
+echo "<a href='logout.php'>Logout</a>";
+@$sqlborrow="insert into fieldborrowed(ID,Name,place) values('$_SESSION[login]','$_SESSION[namename]','$name')";
 $result=mysqli_query($link,$sqlborrow);
 mysqli_close($link); }
 }

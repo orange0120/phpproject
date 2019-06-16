@@ -38,8 +38,9 @@ if($_SESSION["login"]!="x1234"){
 		<a href='addnotice.php'>新增公告</a>
 		<a href='status.php'>統計資料</a>
 		<a href='allfeed.php'>用戶回饋查看</a>
-		<a href='index.php'>登出</a>
-		
+		<?php
+		echo "<a href='logout.php'>登出</a>";
+		?>
           
         
       </div>
